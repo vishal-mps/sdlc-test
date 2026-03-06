@@ -1,0 +1,203 @@
+{
+  "timestamp": "2026-03-06T04:52:42.778Z",
+  "sourceProjectPath": "C:\\Users\\Vishal.bhardwaj\\OneDrive - MPS Limited\\Desktop\\Brown-to-green\\test-project\\PDF-Stamping-Service-main",
+  "filesAnalyzed": 43,
+  "tokenUsage": {
+    "inputTokens": 84247,
+    "outputTokens": 23180,
+    "totalTokens": 107427,
+    "passBreakdown": {
+      "phase1-explore": {
+        "input": 1816,
+        "output": 929
+      },
+      "summarize-1": {
+        "input": 785,
+        "output": 192
+      },
+      "summarize-2": {
+        "input": 852,
+        "output": 163
+      },
+      "summarize-3": {
+        "input": 601,
+        "output": 154
+      },
+      "summarize-4": {
+        "input": 725,
+        "output": 193
+      },
+      "summarize-5": {
+        "input": 864,
+        "output": 140
+      },
+      "summarize-6": {
+        "input": 301,
+        "output": 122
+      },
+      "summarize-7": {
+        "input": 2165,
+        "output": 136
+      },
+      "summarize-8": {
+        "input": 2641,
+        "output": 149
+      },
+      "summarize-9": {
+        "input": 1369,
+        "output": 187
+      },
+      "summarize-10": {
+        "input": 205,
+        "output": 113
+      },
+      "summarize-11": {
+        "input": 749,
+        "output": 127
+      },
+      "summarize-12": {
+        "input": 262,
+        "output": 143
+      },
+      "summarize-13": {
+        "input": 213,
+        "output": 162
+      },
+      "summarize-14": {
+        "input": 593,
+        "output": 149
+      },
+      "summarize-15": {
+        "input": 629,
+        "output": 142
+      },
+      "summarize-16": {
+        "input": 1260,
+        "output": 172
+      },
+      "summarize-17": {
+        "input": 732,
+        "output": 158
+      },
+      "summarize-18": {
+        "input": 745,
+        "output": 157
+      },
+      "summarize-19": {
+        "input": 1862,
+        "output": 160
+      },
+      "summarize-20": {
+        "input": 1901,
+        "output": 145
+      },
+      "summarize-21": {
+        "input": 333,
+        "output": 134
+      },
+      "summarize-22": {
+        "input": 215,
+        "output": 140
+      },
+      "summarize-23": {
+        "input": 553,
+        "output": 176
+      },
+      "summarize-24": {
+        "input": 187,
+        "output": 155
+      },
+      "summarize-25": {
+        "input": 234,
+        "output": 154
+      },
+      "summarize-26": {
+        "input": 520,
+        "output": 153
+      },
+      "summarize-27": {
+        "input": 212,
+        "output": 119
+      },
+      "summarize-28": {
+        "input": 413,
+        "output": 173
+      },
+      "summarize-29": {
+        "input": 415,
+        "output": 161
+      },
+      "summarize-30": {
+        "input": 339,
+        "output": 213
+      },
+      "summarize-31": {
+        "input": 241,
+        "output": 146
+      },
+      "summarize-32": {
+        "input": 3231,
+        "output": 199
+      },
+      "summarize-33": {
+        "input": 1100,
+        "output": 134
+      },
+      "summarize-36": {
+        "input": 1884,
+        "output": 151
+      },
+      "summarize-37": {
+        "input": 719,
+        "output": 149
+      },
+      "summarize-38": {
+        "input": 1212,
+        "output": 172
+      },
+      "summarize-39": {
+        "input": 2547,
+        "output": 166
+      },
+      "summarize-40": {
+        "input": 211,
+        "output": 151
+      },
+      "summarize-41": {
+        "input": 211,
+        "output": 156
+      },
+      "summarize-42": {
+        "input": 211,
+        "output": 141
+      },
+      "summarize-43": {
+        "input": 220,
+        "output": 161
+      },
+      "user-stories": {
+        "input": 7971,
+        "output": 3425
+      },
+      "requirements": {
+        "input": 8039,
+        "output": 2889
+      },
+      "tech-specs": {
+        "input": 8076,
+        "output": 4096
+      },
+      "test-cases": {
+        "input": 7860,
+        "output": 3910
+      },
+      "meta": {
+        "input": 15823,
+        "output": 1563
+      }
+    }
+  },
+  "model": "Qwen/Qwen2.5-Coder-32B-Instruct",
+  "llmProvider": "HuggingFace",
+  "brownieVersion": "1.0.0"
+}
