@@ -1,0 +1,114 @@
+{
+  "projectName": "PDF Stamping Service",
+  "projectPurpose": "A service for applying stamps (text, images, or HTML content) to PDF documents with configurable positioning and metadata handling.",
+  "techStack": {
+    "language": "Java",
+    "framework": "Spring Boot",
+    "database": "none",
+    "runtime": "JVM"
+  },
+  "modules": [
+    {
+      "name": "Main Application",
+      "path": "src/main/java/com/stamping/StampingApplication.java",
+      "purpose": "Bootstraps the Spring Boot application."
+    },
+    {
+      "name": "Stamping Services",
+      "path": "src/main/java/com/stamping/service",
+      "purpose": "Provides core stamping logic including text, image, and HTML stamper implementations."
+    },
+    {
+      "name": "Stamper Implementations",
+      "path": "src/main/java/com/stamping/service/stamper",
+      "purpose": "Contains concrete implementations for different stamping types such as text, PDF, image, and HTML."
+    },
+    {
+      "name": "Models",
+      "path": "src/main/java/com/stamping/model",
+      "purpose": "Defines data models used throughout the application for requests, responses, and metadata."
+    },
+    {
+      "name": "Controllers",
+      "path": "src/main/java/com/stamping/controller",
+      "purpose": "Handles incoming HTTP requests and delegates to appropriate services."
+    },
+    {
+      "name": "Exceptions",
+      "path": "src/main/java/com/stamping/exception",
+      "purpose": "Manages custom exceptions and global error handling."
+    },
+    {
+      "name": "Frontend Assets",
+      "path": "frontend",
+      "purpose": "Contains static frontend assets like CSS, HTML, and JavaScript for UI components."
+    },
+    {
+      "name": "Configuration",
+      "path": "src/main/resources/application.yml",
+      "purpose": "Holds application configuration properties."
+    }
+  ],
+  "entities": [
+    {
+      "name": "StampType",
+      "inferredFrom": "file path src/main/java/com/stamping/model/StampType.java"
+    },
+    {
+      "name": "StampResponse",
+      "inferredFrom": "file path src/main/java/com/stamping/model/StampResponse.java"
+    },
+    {
+      "name": "StampRequest",
+      "inferredFrom": "file path src/main/java/com/stamping/model/StampRequest.java"
+    },
+    {
+      "name": "StampPosition",
+      "inferredFrom": "file path src/main/java/com/stamping/model/StampPosition.java"
+    },
+    {
+      "name": "MetadataFrontPageRequest",
+      "inferredFrom": "file path src/main/java/com/stamping/model/MetadataFrontPageRequest.java"
+    },
+    {
+      "name": "FilePathStampRequest",
+      "inferredFrom": "file path src/main/java/com/stamping/model/FilePathStampRequest.java"
+    },
+    {
+      "name": "DynamicStampRequest",
+      "inferredFrom": "file path src/main/java/com/stamping/model/DynamicStampRequest.java"
+    },
+    {
+      "name": "AdJsonRequest",
+      "inferredFrom": "file path src/main/java/com/stamping/model/AdJsonRequest.java"
+    },
+    {
+      "name": "Section",
+      "inferredFrom": "file path src/main/java/com/stamping/model/ad/Section.java"
+    },
+    {
+      "name": "AdResponse",
+      "inferredFrom": "file path src/main/java/com/stamping/model/ad/AdResponse.java"
+    },
+    {
+      "name": "AdLocation",
+      "inferredFrom": "file path src/main/java/com/stamping/model/ad/AdLocation.java"
+    },
+    {
+      "name": "AdData",
+      "inferredFrom": "file path src/main/java/com/stamping/model/ad/AdData.java"
+    }
+  ],
+  "apiSurface": {
+    "type": "REST",
+    "baseRoutes": [
+      "/stamp"
+    ]
+  },
+  "authModel": "none",
+  "integrations": [
+    "iText 7 pdfHTML for HTML rendering with native link support",
+    "Apache PDFBox (implied by usage of PDF stamper components)"
+  ],
+  "deploymentModel": "traditional server"
+}
